@@ -1,0 +1,16 @@
+/* 定义局部样式,默认局部 */
+:local {
+  .layout {
+    height: 100vh;
+  }
+}
+
+/* 定义多个全局样式 */
+:global {
+}
+
+.layout-content {
+  height: 100vh;
+  :global(.ant-layout-content) {
+  }
+}

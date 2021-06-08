@@ -1,0 +1,70 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  z-index: 1;
+  height: 48px;
+  padding: 0px;
+  height: 48px;
+  line-height: 48px;
+  .trigger {
+    font-size: 18px;
+    padding: 22px 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  .header-right {
+    display: flex;
+    float: right;
+    height: 48px;
+    margin-left: auto;
+    overflow: hidden;
+  }
+  .help,
+  .notice {
+    cursor: pointer;
+    display: inline-block;
+    height: 100%;
+    padding: 0 12px;
+    transition: all 0.3s;
+    color: rgba(0, 0, 0, 85);
+  }
+  .notice a {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .username {
+    cursor: pointer;
+    padding: 0 12px;
+    height: 100%;
+    display: inline-block;
+    img {
+      margin-right: 8px;
+      height: 24px;
+      width: 24px;
+    }
+  }
+  :global {
+    .anticon-question-circle-o,
+    .anticon-bell {
+      font-size: 18px !important;
+      color: rgba(0, 0, 0, 0.65);
+      vertical-align: middle;
+    }
+    .anticon-user {
+      padding-right: 5px;
+      font-size: 20px !important;
+      color: rgba(0, 0, 0, 0.65);
+      vertical-align: middle;
+    }
+  }
+  .anticon:hover,
+  .help:hover,
+  .notice:hover,
+  .username:hover {
+    background: rgba(0, 0, 0, 0.025);
+    color: rgba(0, 0, 0, 0.65);
+  }
+}

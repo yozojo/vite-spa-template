@@ -1,0 +1,74 @@
+.logo-header {
+  padding: 0 0 0 8px;
+  overflow: hidden;
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color .3s;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    &:hover {
+      color: #108ee9;
+      background: #e6f7ff;
+    }
+  }
+}
+
+.badge .ant-scroll-number {
+  margin-left: 5px;
+  box-shadow: 0 0 0 0 #d9d9d9 inset;
+}
+
+.logo-h1 {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 0 0 12px;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 140px;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+}
+.sider{
+  box-shadow: 2px 0 6px rgba(0,21,41,.35);
+  position: relative;
+  z-index: 10;
+
+  .ant-menu-dark{
+    //height: calc(~'100% - 64px');
+    overflow: auto;
+    .link{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: left;
+    }
+  }
+
+
+}
+:global .ant-menu-inline-collapsed{
+  width: 48px;
+  overflow: hidden;
+}
+
+:global .ant-menu-submenu>.ant-menu-submenu-title  {
+  padding: 0 16px ;
+}
+
+:global .ant-menu-inline-collapsed>.ant-menu-item{
+  padding: 0 16px ;
+}
+:global .ant-menu-inline-collapsed>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-item{
+  padding: 0 16px ;
+}
+:global .ant-menu-inline-collapsed>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-submenu>.ant-menu-submenu-title{
+  padding: 0 16px ;
+}
+:global .ant-menu-inline-collapsed>.ant-menu-submenu>.ant-menu-submenu-title {
+  padding: 0 16px ;
+}
+
