@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import store, { history } from "./store";
 import { ConfigProvider } from "antd";
 import enUS from "antd/es/locale/en_US";
-import 'antd/dist/antd.min.css';
+// import 'antd/dist/antd.min.css';
 
 import { ProviderApi } from "@tongdun/tdhttp";
 import apis from "Http";
